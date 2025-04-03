@@ -1,0 +1,17 @@
+#contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0px;
+}
+
+#contact-us .section {
+  background-color: var(--main-color);
+  padding: 50px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+#contact-us h2 {
+  text-align: center;
+}

@@ -1,0 +1,95 @@
+body {
+  background-color: var(--second-color);
+}
+
+.menus {
+  background-color: white;
+  height: 800px;
+  overflow-y: scroll;
+  border-radius: 25px;
+  border: solid 1px var(--main-color);
+}
+
+.menu-options {
+  border: solid 1px var(--main-color);
+  border-radius: 25px;
+  height: 100%;
+  width: 20%;
+  min-width: 150px;
+  padding: 10px 3vw;
+}
+
+.menu-options button {
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: solid 2px var(--main-color);
+  padding: 45%;
+  transition: filter 0.3s ease;
+}
+
+.menu-options button:hover,
+.menu-options button.active {
+  filter: brightness(80%);
+}
+
+.menu-options img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.img-container {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.6s ease;
+  border-bottom: 2px solid var(--main-color);
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu-items {
+    padding: 25px 0px;
+}
+
+.menu-items .btn {
+    border-radius: 50%;
+    padding: 15px 20px !important;
+    margin: 20px;
+}
+
+.card {
+  max-width: 250px;
+  margin: 10px;
+  transition-property: box-shadow, transform, border-color;
+  transition-timing-function: ease;
+  transition-duration: 0.6s;
+  border-color: var(--main-color);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 5px 0px var(--second-color);
+}
+
+
+.card-title {
+  color: var(--main-color);
+  text-align: center;
+}
+
+.inactive {
+  display: none;
+}
