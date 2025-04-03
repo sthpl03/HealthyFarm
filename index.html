@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="styles/index.css" rel="stylesheet" type="text/css" />
+
+    <link rel="icon" href="resources/leaf-16.ico" type="image/ico" sizes="16x16" />
+
+    <title>HealthyFarm</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top bg-light">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand" href="#">HealthyFarm</a>
+        <button
+          class="btn navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapseContent"
+          aria-controls="navbarCollapseContent"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapseContent">
+          <ul class="navbar-nav nav-links">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about-us.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="menus.html" class="nav-link">Menus</a>
+            </li>
+            <li class="nav-item">
+              <a href="our-sourcing.html" class="nav-link">Our Sourcing</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact-us.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="btn btn-outline main-color me-2 order-btn">Dine-In</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="btn order-btn">Carry-Out</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header
+      class="container-fluid d-flex justify-content-center flex-column align-items-center text-center"
+    >
+      <img
+        src="resources/veggie-plate-1.png"
+        class="rolling-img"
+        style="top: -150px; left: -100px"
+      />
+      <h1>Fresh, Flavorful, Guilt-Free!</h1>
+      <p>
+        Welcome to HealthyFarm! We're more than just a restaurant—we're a celebration of fresh,
+        wholesome, and sustainable eating. Our plant-based menu is crafted with locally sourced
+        ingredients, ensuring every bite is packed with flavor and nutrition. Whether you're a
+        lifelong vegetarian or simply looking for healthier, eco-friendly dining options,
+        HealthyFarm offers a guilt-free way to enjoy delicious meals that nourish both you and the
+        planet.
+      </p>
+      <a href="menus.html" class="btn btn-outline fancy-btn" id="order-btn">Order Now</a>
+      <img
+        class="rolling-img"
+        src="resources/veggie-plate-2.png"
+        style="bottom: -150px; left: 85vw; transform: rotate(180deg)"
+      />
+    </header>
+    <div class="guilt-free container-fluid d-flex justify-content-around flex-wrap p-5 my-3">
+      <div class="my-3">
+        <h1 class="fancy-headline">Guilt-Free Food</h1>
+        <p class="my-3">
+          We believe that eating well should be both delicious and guilt-free. Our menu is crafted
+          with fresh, locally sourced ingredients, ensuring every dish is packed with nutrients and
+          flavor while staying kind to the planet. We take pride in serving wholesome, plant-based
+          meals that nourish the body without compromising on taste or sustainability. Whether
+          you're a dedicated vegetarian or just exploring meat-free options, HealthyFarm offers a
+          vibrant selection of thoughtfully prepared dishes that leave you feeling satisfied and
+          energized.
+        </p>
+        <a href="about-us.html#approach" class="btn btn-outline main-color">See Our Approach</a>
+      </div>
+      <img src="resources/farmers.jpg" />
+    </div>
+    <div id="founders" class="p-5 text-light text-center">
+      <img
+        src="https://images.unsplash.com/photo-1526234362653-3b75a0c07438?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      />
+      <h1>Our Founders</h1>
+      <div class="d-flex justify-content-around flex-wrap">
+        <div class="founder">
+          <img
+            src="https://images.unsplash.com/photo-1562788869-4ed32648eb72?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          />
+        </div>
+        <div class="founder">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1661633228903-c155872065e6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          />
+        </div>
+      </div>
+      <h3>Where it all began...</h3>
+      <p>
+        James and Eleanor Parker grew up in the countryside, harvesting fresh produce and preparing home-cooked meals. Witnessing the harsh realities of farm life, they chose a vegetarian lifestyle to live in harmony with nature. After moving to the city, they longed for their rural roots and noticed many lacked access to fresh, wholesome food. Determined to make a change, they founded HealthFarm in 1995—a vegetarian restaurant dedicated to nourishing people and the planet. Sourcing ingredients from local farms, they combined sustainability with flavorful, plant-based meals. HealthFarm quickly became a sanctuary from city life, welcoming farmers, families, and travelers. James and Eleanor remained deeply involved, ensuring their mission of kindness and sustainability thrived. Today, HealthFarm continues their legacy, proving that eating well and caring for the Earth can go hand in hand.
+      </p>
+    </div>
+    <div id="order-content" class="justify-content-center align-items-center">
+      <div class="window d-flex justify-content-around align-items-center flex-column p-5">
+        <button type="button" class="close-btn"><i class="bi bi-x"></i></button>
+        <h1 class="fancy-headline">Sign In To Order</h1>
+        <div class="container">
+          <h3>Email Address</h3>
+          <input type="text" placeholder="username@email.com" class="form-control" />
+        </div>
+        <div class="container">
+          <h3>Password</h3>
+          <input type="password" placeholder="Password" class="form-control" />
+        </div>
+        <button class="btn w-100">Sign In</button>
+        <a href="#" class="link-success">Don't have an account? Register now!</a>
+      </div>
+    </div>
+    <!-- Latest compiled and minified Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/imageRoll.js"></script>
+    <script src="scripts/scrollNavbar.js"></script>
+    <script src="scripts/orderButtons.js"></script>
+  </body>
+</html>
